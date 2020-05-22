@@ -11,9 +11,9 @@
       <div @click="handleReplace('user')">replace 用户中心</div>
     </div>
     <div class="main-content">
-      <vue-keep>
+      <vue-keeps>
         <router-view/>
-      </vue-keep>
+      </vue-keeps>
     </div>
   </div>
 </template>

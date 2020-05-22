@@ -1,6 +1,6 @@
 {
   "name": "vue-keeps",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/uif.common.js",
   "private": false,
   "scripts": {
@@ -41,5 +41,11 @@
     "> 1%",
     "last 2 versions",
     "not dead"
+  ],
+  "keywords": [
+    "vue",
+    "keeps",
+    "vue-keeps",
+    "keep-alive"
   ]
 }

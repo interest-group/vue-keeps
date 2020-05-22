@@ -1,4 +1,6 @@
-# vue-keep
+# vue-keeps
+
+可控的 keep-alive 组件
 
 ## 安装
 
@@ -11,18 +13,18 @@ npm i -S vue-keeps
 main.js
 ```
 import Vue from 'vue'
-import VueKeep from 'vue-keeps'
+import VueKeeps from 'vue-keeps'
 
-Vue.use(VueKeep)
+Vue.use(VueKeeps)
 // code...
 ```
 
 
 ```
 <template>
-  <vue-keep>
+  <vue-keeps>
     <router-view></router-view>
-  </vue-keep>
+  </vue-keeps>
 </template>
 ```
 

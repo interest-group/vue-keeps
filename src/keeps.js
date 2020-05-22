@@ -1,7 +1,7 @@
 import {empty, find, push} from './cache'
 
 export default {
-  name: 'vue-keep',
+  name: 'vue-keeps',
   abstract: true,
   props: {
     max: [String, Number]
