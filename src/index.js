@@ -6,5 +6,8 @@ export default {
     Vue.component('vue-keeps', Keeps)
     Vue.prototype.$keepRemove = remove
     Vue.prototype.$keepEmpty = empty
-  }
+  },
+  component: Keeps,
+  remove,
+  empty
 }
